@@ -1,8 +1,13 @@
+import styles, { Title } from "./styles";
+import FoodList from "./components/FoodList";
+import FoodDetail from "./components/FoodDetail";
 function App() {
   return (
-    <div>
-      <h1>Hasan's Kitchen !</h1>
-    </div>
+    <>
+      <Title>Hasan's Kitchen !</Title>
+      <FoodList />
+      <FoodDetail />
+    </>
   );
 }
 
