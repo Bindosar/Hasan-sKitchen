@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, CardWrapper, CardTitleStyled } from "../styles";
 import { Button, Card } from "react-bootstrap";
-export const FoodList = () => {
+// import { catgrys } from "../catgrys";
+export const FoodList = ({ title }) => {
   return (
     <>
       <Container>
-        <CardTitleStyled>Categories</CardTitleStyled>
+        <CardTitleStyled>{title}</CardTitleStyled>
         <CardWrapper className="row">
           <Card style={{ width: "18rem" }} className="col">
             <Card.Img
